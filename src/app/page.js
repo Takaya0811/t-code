@@ -221,6 +221,16 @@ export default function Home() {
             </div>
           </section>
         </div>
+        
+        <div className="fixed bottom-6 right-6">
+          <a 
+            href="/page1" 
+            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+          >
+            次に
+            <span className="text-xl">→</span>
+          </a>
+        </div>
       </div>
     </div>
   );
